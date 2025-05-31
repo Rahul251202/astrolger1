@@ -1,0 +1,10 @@
+@import "tailwindcss";
+.glass-card {
+  @apply p-4 rounded-xl bg-white/10 backdrop-blur-md border border-white/20;
+}
+.footer-title {
+  @apply text-lg font-semibold text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500 bg-clip-text mb-3;
+}
+html {
+  scroll-behavior: smooth;
+}
