@@ -7,6 +7,7 @@ import ServicesSection from './Components/ServicesSection';
 import TestimonialsSection from './Components/Testimonal';
 import Footer from './Components/Footer';
 import AboutSection from './Components/About';
+import KundliForm from './Components/KundliForm';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         <section id="services">
           <ServicesSection />
         </section>
+        <section id="kundli">
+  <KundliForm />
+</section>
          <section id="about">
           <AboutSection />
         </section>

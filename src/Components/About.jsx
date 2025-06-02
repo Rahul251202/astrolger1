@@ -6,7 +6,7 @@ import pooja2 from "../assets/Astro-img.jpg";
 import pooja3 from "../assets/Astro-img.jpg";
 import pooja4 from "../assets/Astro-img.jpg";
 
-const poojaImages = [pooja1, pooja2, pooja3, pooja4];
+const poojaImages = [pooja1, pooja2, pooja3];
 
 function AboutSection() {
   return (
@@ -18,10 +18,10 @@ function AboutSection() {
       className="min-h-screen px-6 py-12 max-w-7xl mx-auto font-serif"
       id="About"
     >
-      <h1 className="text-4xl font-bold mb-6 drop-shadow-md">About Shri GemStones Astrology</h1>
+      <h1 className="text-4xl font-bold mb-6 drop-shadow-md">About Shri Astrology</h1>
 
       <p className="text-lg max-w-3xl mb-10 leading-relaxed">
-        Shri GemStones Astrology is dedicated to bringing you the ancient wisdom of gemstones and astrology.
+        Shri Astrology is dedicated to bringing you the ancient wisdom of gemstones and astrology.
         Our expert team conducts authentic poojas and rituals that help you align with your cosmic energies.
       </p>
 

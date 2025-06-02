@@ -13,18 +13,18 @@ const Navbar = () => {
 
   return (
     <nav
-      className={`sticky top-0 z-50 bg-zinc-50 transition-all duration-300 ${
-        scrolled ? "bg-indigo-900 shadow-lg" : "bg-zinc-50"
+      className={`sticky top-0 z-50 transition-all duration-300 ${
+    scrolled ? "bg-[#e7e294]" : "bg-[#e2cfba]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div
           className={`text-2xl font-cursive text-indigo-900 drop-shadow-md transition-colors duration-300 ${
-            scrolled ? "text-yellow-400" : "text-indigo-900"
+            scrolled ? "text-indigo-800" : "text-indigo-900"
           }`}
         >
-          Shri GemStones Astrology
+          Shri Astrology
         </div>
 
         {/* Right side: Services + Button */}

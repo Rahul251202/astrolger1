@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import mandalaImg from "../assets/logo astr.jpg";
+import logo from "../assets/logog astro.png";
 import ContactForm from "./Contact";
 
 export default function HeroSection() {
@@ -17,7 +17,7 @@ export default function HeroSection() {
 
   const handleTalkToAstrologer = () => {
     // Put the astrologer's phone number here
-    window.location.href = "tel:+911234567890";
+    window.location.href = "tel:+917503183147";
   };
 
   return (
@@ -28,16 +28,17 @@ export default function HeroSection() {
       viewport={{ once: true }}
       className="relative py-24 px-6 text-cream text-center"
     >
-      <div
-        aria-label="Glowing Mandala"
-        className="relative mx-auto mb-8 w-36 h-36 rounded-full shadow-[0_0_20px_5px_rgba(212,175,55,0.8)] bg-gradient-radial from-yellow-400/70 to-transparent overflow-hidden"
-      >
-        <img
-          src={mandalaImg}
-          alt="Mandala"
-          className="w-full h-full object-cover rounded-full"
-        />
-      </div>
+     <div
+  aria-label="Glowing Mandala"
+  className="relative mx-auto mb-8 w-36 h-36 rounded-full shadow-[0_0_20px_5px_rgba(212,175,55,0.8)] bg-gradient-radial from-yellow-400/70 to-transparent overflow-hidden flex items-center justify-center"
+>
+  <img
+    src={logo} // Replace with the actual image path
+    alt="logo"
+    className="max-w-full max-h-full object-contain rounded-full"
+  />
+</div>
+
 
       <motion.h1
         className="text-4xl sm:text-5xl font-cursive text-cyan-950 drop-shadow-lg mb-4"
