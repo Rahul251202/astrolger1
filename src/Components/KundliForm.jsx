@@ -49,8 +49,9 @@ const KundliForm = () => {
   };
 
   return (
-    <div className="max-w-xl mx-auto mt-10 p-6 bg-[#fff8f0] rounded-lg shadow">
-      <h2 className="text-2xl font-semibold mb-6 text-center text-indigo-900">
+   <div className="max-w-xl mx-auto mt-10 mb-10 p-6 bg-[#fff8f0] rounded-lg shadow">
+
+      <h2 className="text-2xl font-semibold mb-6 text-center text-yellow-800">
         Generate Your Horoscope (Kundli)
       </h2>
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -90,7 +91,7 @@ const KundliForm = () => {
         />
         <button
           type="submit"
-          className="w-full bg-yellow-400 text-indigo-900 py-2 rounded-md font-semibold hover:bg-yellow-500 transition"
+          className="w-full bg-yellow-400 text-yellow-800 py-2 rounded-md font-semibold hover:bg-yellow-500 transition"
           disabled={loading}
         >
           {loading ? "Generating..." : "Generate Kundli"}
@@ -99,7 +100,7 @@ const KundliForm = () => {
 
       {kundliData && (
         <div className="mt-6 p-4 bg-white border rounded-md shadow-inner">
-          <h3 className="text-xl font-bold mb-2 text-indigo-800">Kundli Details</h3>
+          <h3 className="text-xl font-bold mb-2 text-black">Kundli Details</h3>
           <p><strong>Name:</strong> {kundliData.name}</p>
           <p><strong>Date of Birth:</strong> {kundliData.dob}</p>
           <p><strong>Time of Birth:</strong> {kundliData.tob}</p>

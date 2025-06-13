@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import logo from "../assets/logog astro.png";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -14,49 +15,57 @@ const Navbar = () => {
   return (
     <nav
       className={`sticky top-0 z-50 transition-all duration-300 ${
-    scrolled ? "bg-[#e7e294]" : "bg-[#e2cfba]"
+    scrolled ? "bg-[#fff8f0]" : "bg-[#fff8f0]"
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
         <div
-          className={`text-2xl font-cursive text-indigo-900 drop-shadow-md transition-colors duration-300 ${
-            scrolled ? "text-indigo-800" : "text-indigo-900"
-          }`}
-        >
-          Shri Astrology
-        </div>
+  className={`flex items-center gap-3 text-4xl font-cursive drop-shadow-md transition-colors duration-300 ${
+    scrolled ? "text-yellow-800" : "text-yellow-800"
+  }`}
+>
+  {/* Logo image */}
+  <img
+    src={logo}
+    alt="Shri Astrology Logo"
+    className="w-10 h-10 object-contain rounded-3xl"
+  />
+
+  {/* Brand name */}
+  AstroVikram
+</div>
+
 
         {/* Right side: Services + Button */}
-        <div className="flex items-center space-x-6">
+        <div className="flex text-2xl items-center space-x-6">
           <a
             href="#home"
-            className="text-indigo-800 hover:text-yellow-600 transition font-medium"
+            className="text-black hover:text-yellow-600 transition font-normal"
           >
             Home
           </a>
 
           <a
             href="#services"
-            className="text-indigo-800 hover:text-yellow-600 transition font-medium"
+            className="text-black hover:text-yellow-600 transition font-normal"
           >
             Services
           </a>
           <a
             href="#About"
-            className="text-indigo-800 hover:text-yellow-600 transition font-medium"
+            className="text-black hover:text-yellow-600 transition font-normal"
           >
             About
           </a>
-          <button
-            className={`bg-yellow-400 hover:bg-yellow-500 text-indigo-900 px-4 py-2 rounded-full shadow hover:shadow-[0_0_6px_rgba(255,111,60,0.5)] transition ${
-              scrolled
-                ? "shadow-lg shadow-yellow-400/70"
-                : "shadow hover:shadow-[0_0_6px_rgba(255,111,60,0.5)]"
-            }`}
+          <a
+            href="#contact"
+            className= "text-black hover:text-yellow-600 transition font-normal"
+        
           >
             Contact
-          </button>
+            </a>
+         
         </div>
       </div>
     </nav>
