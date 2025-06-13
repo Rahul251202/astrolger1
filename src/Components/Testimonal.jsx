@@ -45,10 +45,10 @@ export default function TestimonialsSection() {
         {visibleTestimonials.map(({ quote, author }, i) => (
           <div
             key={i}
-            className="bg-green-300 rounded-2xl p-8 "
+            className="bg-[oklch(0.48_0.11_60.42)] rounded-2xl p-8 "
           >
-            <p className="italic leading-relaxed text-base">“{quote}”</p>
-            <footer className="mt-6 text-right font-semibold text-black">— {author}</footer>
+            <p className="italic leading-relaxed text-base text-white">“{quote}”</p>
+            <footer className="mt-6 text-right font-semibold text-white">— {author}</footer>
           </div>
         ))}
       </div>
