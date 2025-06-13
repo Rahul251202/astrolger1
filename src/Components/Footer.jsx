@@ -15,7 +15,7 @@ const Footer = () => {
         {/* Brand Info */}
         <div>
           <h2 className="text-xl font-bold text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500 bg-clip-text mb-2">
-            Shri Gemstone Astrology
+            AstroVikram
           </h2>
 
           <motion.div
@@ -46,10 +46,10 @@ const Footer = () => {
             <li>
               WhatsApp:{" "}
               <a
-                href="tel:+919835477119"
+                href="tel:+91-7503183147"
                 className="text-blue-400 hover:underline"
               >
-                +91-9835477119
+                +91-7503183147
               </a>
             </li>
             <li>
@@ -69,7 +69,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:underline"
               >
-                Shri Gemstone Astrology
+                AstroVikram
               </a>
             </li>
           </ul>
@@ -98,7 +98,7 @@ const Footer = () => {
       {/* Typing Effect Footer Note */}
       <div className="mt-10 text-center text-white/70 text-sm">
         <TypeAnimation
-          sequence={["© 2025 Shri Gemstone Astrology. All rights reserved.", 2000]}
+          sequence={["© 2025 AstroVikram. All rights reserved.", 2000]}
           speed={50}
           wrapper="span"
           repeat={Infinity}
