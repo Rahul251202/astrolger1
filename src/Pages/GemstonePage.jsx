@@ -30,7 +30,7 @@ const GemstonePage = () => {
             <p className="text-sm text-gray-600 mb-1"><strong>Origin:</strong> {gem.origin}</p>
             <p className="text-sm text-gray-600 mb-4"><strong>Rate:</strong> {gem.rate}</p>
             <a
-              href={`https://wa.me/919999999999?text=${encodeURIComponent(gem.whatsappMessage)}`}
+              href={`https://wa.me/917503183147?text=${encodeURIComponent(gem.whatsappMessage)}`}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-yellow-600 text-white px-4 py-2 rounded-full shadow hover:bg-yellow-700 transition"
