@@ -44,7 +44,7 @@ export default function HeroSection() {
         </div>
 
         <motion.h1
-          className="text-4xl sm:text-5xl font-cursive text-black drop-shadow-lg mb-4"
+          className="text-4xl sm:text-5xl font-cursive text-[#f3f3f3] drop-shadow-lg mb-4"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.2, duration: 0.6 }}
@@ -59,7 +59,7 @@ export default function HeroSection() {
         </motion.h1>
 
         <motion.p
-          className="text-lg sm:text-xl max-w-lg mx-auto mb-10 text-black leading-relaxed"
+          className="text-lg sm:text-xl max-w-lg mx-auto mb-10 text-[#f3f3f3] leading-relaxed"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.4, duration: 0.6 }}
@@ -86,7 +86,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="bg-indigo-200 hover:bg-yellow-400 text-black font-semibold py-3 px-6 rounded-full shadow-lg"
+            className="bg-[#3c2b2b] hover:bg-yellow-400 text-[#f3f3f3] font-semibold py-3 px-6 rounded-full shadow-lg"
             onClick={() => alert("Get Your Horoscope clicked")}
           >
             Get Your Horoscope
@@ -96,7 +96,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="bg-indigo-200 hover:bg-yellow-400 text-black font-semibold py-3 px-6 rounded-full shadow-lg"
+            className="bg-[#3c2b2b] hover:bg-yellow-400 text-[#f3f3f3] font-semibold py-3 px-6 rounded-full shadow-lg"
             onClick={handleBookPoojaClick}
           >
             Book a Pooja
@@ -106,7 +106,7 @@ export default function HeroSection() {
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.98 }}
             transition={{ type: "spring", stiffness: 200 }}
-            className="bg-indigo-200 hover:bg-yellow-400 text-black font-semibold py-3 px-6 rounded-full shadow-lg"
+            className="bg-[#3c2b2b] hover:bg-yellow-400 text-[#f3f3f3] font-semibold py-3 px-6 rounded-full shadow-lg"
             onClick={handleTalkToAstrologer}
           >
             Talk to Astrologer

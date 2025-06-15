@@ -33,6 +33,7 @@ const Footer = () => {
               speed={40}
               wrapper="p"
               repeat={Infinity}
+              cursor={false}
             />
           </motion.div>
         </div>
@@ -102,6 +103,7 @@ const Footer = () => {
           speed={50}
           wrapper="span"
           repeat={Infinity}
+          cursor={false}
         />
       </div>
 

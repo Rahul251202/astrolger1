@@ -53,14 +53,14 @@ const AboutSection = () => {
         >
           <h2 className="text-3xl md:text-4xl font-bold text-yellow-800 mb-4">About Us</h2>
           
-          <p className="text-black leading-relaxed text-base md:text-lg font-semibold mb-4">
+          <p className="text-black leading-relaxed text-sm md:text-sm font-semibold mb-4 text-justify">
             AstroVikram is led by <span className="font-bold text-yellow-800">Dr. Vikram Kumar Jha</span>, 
             a respected spiritual practitioner and scholar. He holds a <span className="italic">B.A. in Sanskrit from Delhi University</span>, 
             along with <span className="italic">B.Ed From Lal bahadur shastri institute </span> <span> M.A from JNU and Ph.D from IGNOU</span> degrees. With years of experience and devotion, 
             Dr. Jha has guided countless individuals through authentic Vedic practices.
           </p>
 
-          <p className="text-black leading-relaxed text-base md:text-lg font-semibold">
+          <p className="text-black leading-relaxed text-sm md:text-sm font-semibold text-justify">
             AstroVikram is dedicated to bringing you the ancient wisdom of astrology, pooja rituals, and gemstones.
             Our experienced pandits perform authentic Vedic rituals that align your energies with the cosmic universe.
            we ensure every ceremony is performed with devotion
