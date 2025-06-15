@@ -13,6 +13,7 @@ import KundliForm from "./Components/KundliForm";
 
 // Pages
 import GemstonePage from "./Pages/GemstonePage";
+import Contact from "./Components/Contact"; // ✅ Now included
 // import PoojaPage from "./Pages/PoojaPage";
 // import HoroscopePage from "./Pages/HoroscopePage"; // ✅ Now included
 // import VedicReportPage from "./Pages/VedicReportPage";
@@ -55,6 +56,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services/gemstones" element={<GemstonePage />} />
+        <Route path="/contact" element={<Contact/>}/>
         {/* <Route path="/services/pooja" element={<PoojaPage />} />
         <Route path="/services/horoscope" element={<HoroscopePage />} />
         <Route path="/services/vedic-reports" element={<VedicReportPage />} /> */}

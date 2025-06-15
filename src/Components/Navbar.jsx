@@ -14,6 +14,10 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const handleContactForm = () => {
+    // Logic to handle contact form submission
+
+  }
   const toggleMenu = () => setMenuOpen(!menuOpen);
   const closeMenu = () => setMenuOpen(false);
 
@@ -70,7 +74,7 @@ const Navbar = () => {
           <a href="#home" onClick={closeMenu} className="hover:text-yellow-600">Home</a>
           <a href="#services" onClick={closeMenu} className="hover:text-yellow-600">Services</a>
           <a href="#About" onClick={closeMenu} className="hover:text-yellow-600">About</a>
-          <a href="#contact" onClick={closeMenu} className="hover:text-yellow-600">Contact</a>
+          <a href="#contact" onClick={handleContactForm} className="hover:text-yellow-600">Contact</a>
         </nav>
       </div>
 

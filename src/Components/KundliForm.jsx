@@ -49,7 +49,7 @@ const KundliForm = () => {
   };
 
   return (
-    <div className="max-w-6xl mx-auto mt-10 mb-10 p-6 bg-white">
+    <div className="max-w-6xl mx-auto mt-10 mb-10 p-6 bg-white kundali">
       <div className="flex flex-col md:flex-row items-center gap-10 bg-white p-6 rounded-lg shadow">
         {/* Form - Left Side */}
         <div className="w-full md:w-1/2 justify-center items-center hidden md:flex">

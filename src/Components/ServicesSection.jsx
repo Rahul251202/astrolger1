@@ -10,7 +10,7 @@ const services = [
     title: "Horoscope & Kundli Reading",
     image: horoscopeImage,
     description: "Detailed birth chart and horoscope readings tailored for you.",
-    link: "/services/horoscope",
+    link: "#kundali",
   },
   {
     title: "Personalized Pooja Rituals",
