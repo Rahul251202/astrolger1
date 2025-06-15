@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import horoscopeImage from "../assets/horscope.webp";
 import poojaImage from "../assets/pooja photo.jpg";
 import gemstoneImage from "../assets/gemstone.jpg";
@@ -10,7 +10,8 @@ const services = [
     title: "Horoscope & Kundli Reading",
     image: horoscopeImage,
     description: "Detailed birth chart and horoscope readings tailored for you.",
-    link: "#kundli",
+    action: "scroll", // custom flag for scrolling
+    targetId: "kundli",
   },
   {
     title: "Personalized Pooja Rituals",
@@ -32,8 +33,20 @@ const services = [
   },
 ];
 
-
 export default function ServicesSection() {
+  const navigate = useNavigate();
+
+  const handleClick = (item) => {
+    if (item.action === "scroll" && item.targetId) {
+      const el = document.getElementById(item.targetId);
+      if (el) {
+        el.scrollIntoView({ behavior: "smooth" });
+      }
+    } else if (item.link) {
+      navigate(item.link);
+    }
+  };
+
   return (
     <section className="py-20 px-6 text-yellow-800 bg-[#fff8f0]">
       <h2 className="font-cursive text-4xl mb-14 drop-shadow-lg text-center">
@@ -41,8 +54,12 @@ export default function ServicesSection() {
       </h2>
 
       <div className="grid gap-10 max-w-6xl mx-auto grid-cols-1 sm:grid-cols-2 md:grid-cols-4">
-        {services.map(({ image, title, description, link }, i) => (
-          <Link to={link} key={title} className="block">
+        {services.map((item, i) => (
+          <div
+            key={item.title}
+            onClick={() => handleClick(item)}
+            className="cursor-pointer"
+          >
             <div
               className="bg-red-300 rounded-2xl p-8 shadow-md transition-transform duration-300 transform hover:scale-105 text-center"
               style={{
@@ -50,14 +67,14 @@ export default function ServicesSection() {
               }}
             >
               <img
-                src={image}
-                alt={title}
+                src={item.image}
+                alt={item.title}
                 className="w-20 h-20 object-contain mx-auto mb-5"
               />
-              <h3 className="text-xl font-semibold mb-2">{title}</h3>
-              <p className="text-sm leading-relaxed">{description}</p>
+              <h3 className="text-xl font-semibold mb-2">{item.title}</h3>
+              <p className="text-sm leading-relaxed">{item.description}</p>
             </div>
-          </Link>
+          </div>
         ))}
       </div>
 

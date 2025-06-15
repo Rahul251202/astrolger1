@@ -82,15 +82,21 @@ export default function HeroSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
         >
-          <motion.button
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-            transition={{ type: "spring", stiffness: 200 }}
-            className="bg-[#3c2b2b] hover:bg-yellow-400 text-[#f3f3f3] font-semibold py-3 px-6 rounded-full shadow-lg"
-            onClick={() => alert("Get Your Horoscope clicked")}
-          >
-            Get Your Horoscope
-          </motion.button>
+      <motion.button
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.98 }}
+  transition={{ type: "spring", stiffness: 200 }}
+  className="bg-[#3c2b2b] hover:bg-yellow-400 text-[#f3f3f3] font-semibold py-3 px-6 rounded-full shadow-lg"
+  onClick={() => {
+    const formElement = document.getElementById("kundli");
+    if (formElement) {
+      formElement.scrollIntoView({ behavior: "smooth" });
+    }
+  }}
+>
+  Get Your Horoscope
+</motion.button>
+
 
           <motion.button
             whileHover={{ scale: 1.05 }}
