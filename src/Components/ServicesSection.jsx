@@ -10,7 +10,7 @@ const services = [
     title: "Horoscope & Kundli Reading",
     image: horoscopeImage,
     description: "Detailed birth chart and horoscope readings tailored for you.",
-    link: "#kundali",
+    link: "#kundli",
   },
   {
     title: "Personalized Pooja Rituals",
@@ -31,6 +31,7 @@ const services = [
     link: "/services/vedic-reports",
   },
 ];
+
 
 export default function ServicesSection() {
   return (
