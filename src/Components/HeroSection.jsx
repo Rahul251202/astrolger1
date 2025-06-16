@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
-import logo from "../assets/logog astro.png";
+import logo from "../assets/logostro.jpg";
 import ContactForm from "./Contact";
 import bgImage from "../assets/bg-vikr.jpg";
 
@@ -34,12 +34,12 @@ export default function HeroSection() {
         {/* Logo inside glowing circle */}
         <div
           aria-label="Glowing Mandala"
-          className="relative mx-auto mb-8 w-36 h-36 rounded-full shadow-[0_0_20px_5px_rgba(212,175,55,0.8)] bg-gradient-radial from-yellow-400/70 to-transparent overflow-hidden flex items-center justify-center"
+          className="relative mx-auto mb-8 w-36 h-36 rounded-[40px] bg-gradient-radial  to-transparent overflow-hidden flex items-center justify-center"
         >
           <img
             src={logo}
             alt="logo"
-            className="max-w-full max-h-full object-contain rounded-full"
+            className="max-w-full max-h-full object-contain rounded-[40px]"
           />
         </div>
 

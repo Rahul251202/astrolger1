@@ -1,13 +1,59 @@
 import React from "react";
 import yellowSapphire from "../assets/Astro-img.jpg";
+import Ruby from "../assets/Ruby 4.67.jpg";
+import Ruby1 from "../assets/Ruby 6.52.jpg";
+import elem from "../assets/Emerald.jpg";
+import elem1 from "../assets/Emerald1.jpg";
+import neelam from "../assets/neelam.jpg";
+import blues from "../assets/saphire.jpg";
 
 const gemstones = [
   {
-    name: "पुखराज (Yellow Sapphire)",
-    image: yellowSapphire,
-    type: "Natural Ceylon Yellow Sapphire",
-    origin: "श्रीलंका",
-    rate: "₹15,000/कैरट",
+    name: "Ruby 4.67 Carats",
+    image: Ruby,
+    origin: "Burma",
+    rate: "₹19,545",
+    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+  },
+   {
+    name: "Ruby 6.52 Carats",
+    image: Ruby1,
+    
+    origin: "Burma",
+    rate: "₹38560",
+    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+  },
+   {
+    name: "Emerald 7.25 Carats",
+    image: elem,
+   
+    origin: "Zambia",
+    rate: "₹46580",
+    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+  },
+   {
+    name: "Emerald 8.50 Carats",
+    image: elem1,
+
+    origin: "Zambia",
+    rate: "₹37800",
+    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+  },
+   {
+    name: "Blue Sapphire 5.25 Carats",
+    image: blues,
+
+    origin: "Sri Lanka",
+    rate: "₹30250",
+    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+  },
+
+    {
+    name: "Neelam 8.50 Carats",
+    image: neelam,
+  
+    origin: "Bangkok",
+    rate: "₹16180",
     whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
   // Add more gemstones as needed
@@ -19,7 +65,7 @@ const GemstonePage = () => {
       <h2 className="text-3xl font-bold text-yellow-800 mb-10 text-center">Available Gemstones</h2>
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
         {gemstones.map((gem, i) => (
-          <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-yellow-400 transition">
+          <div key={i} className="bg-white rounded-xl shadow-lg p-6 text-center">
             <img
               src={gem.image}
               alt={gem.name}

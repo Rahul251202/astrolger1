@@ -59,7 +59,7 @@ const Footer = () => {
                 href="mailto:rahul251202@gmail.com"
                 className="text-green-400 hover:underline"
               >
-                rahul251202@gmail.com
+                infovikram9@gmail.com
               </a>
             </li>
             <li>
@@ -70,7 +70,7 @@ const Footer = () => {
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:underline"
               >
-                AstroVikram
+                AstroVikram Location
               </a>
             </li>
           </ul>
@@ -78,22 +78,31 @@ const Footer = () => {
 
         {/* Social Media */}
         <div>
-          <h2 className="text-lg font-semibold text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500 bg-clip-text mb-2">
-            🌐 Follow Us
-          </h2>
-          <div className="flex space-x-4 mt-2">
-            {[FaFacebookF, FaInstagram].map((Icon, idx) => (
-              <motion.a
-                key={idx}
-                href="#"
-                whileHover={{ scale: 1.2, boxShadow: "0 0 10px #00f6ff" }}
-                className="p-2 rounded-full border border-white/10 hover:text-blue-400 transition"
-              >
-                <Icon className="w-5 h-5" />
-              </motion.a>
-            ))}
-          </div>
-        </div>
+  <h2 className="text-lg font-semibold text-transparent bg-gradient-to-r from-blue-400 via-green-400 to-purple-500 bg-clip-text mb-2">
+    🌐 Follow Us
+  </h2>
+  <div className="flex space-x-4 mt-2">
+    <motion.a
+      href="https://www.facebook.com/share/1C9rhUc9jc/?mibextid=qi2Omg"
+      target="_blank"
+      rel="noopener noreferrer"
+      whileHover={{ scale: 1.2, boxShadow: "0 0 10px #00f6ff" }}
+      className="p-2 rounded-full border border-white/10 hover:text-blue-400 transition"
+    >
+      <FaFacebookF className="w-5 h-5" />
+    </motion.a>
+    <motion.a
+      href="https://www.instagram.com/shri_gemstone?igsh=MW5uYjd4N3l1eG05MQ=="
+      target="_blank"
+      rel="noopener noreferrer"
+      whileHover={{ scale: 1.2, boxShadow: "0 0 10px #00f6ff" }}
+      className="p-2 rounded-full border border-white/10 hover:text-pink-500 transition"
+    >
+      <FaInstagram className="w-5 h-5" />
+    </motion.a>
+  </div>
+</div>
+
       </div>
 
       {/* Typing Effect Footer Note */}

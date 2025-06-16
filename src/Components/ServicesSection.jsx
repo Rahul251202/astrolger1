@@ -4,10 +4,10 @@ import { send } from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
 import { motion } from "framer-motion";
 
-import horoscopeImage from "../assets/horscope.webp";
+import horoscopeImage from "../assets/horo.jpg";
 import poojaImage from "../assets/pooja photo.jpg";
 import gemstoneImage from "../assets/gemstone.jpg";
-import vedicImage from "../assets/Astro-img.jpg";
+import vedicImage from "../assets/palmistry.jpg";
 
 const services = [
   {
@@ -29,12 +29,13 @@ const services = [
     description: "Astrologically suitable gemstones for your life path.",
     link: "/services/gemstones",
   },
-  {
-    title: "Vedic Astrology Reports",
-    image: vedicImage,
-    description: "In-depth reports based on ancient Vedic astrology.",
-    action: "form",
-  },
+{
+  title: "Palmistry Analysis",
+  image: vedicImage, // optionally replace with a palm image if available
+  description: "Discover insights about your life, health, and destiny through palm reading.",
+  action: "form",
+}
+
 ];
 
 export default function ServicesSection() {

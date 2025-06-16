@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa"; // for hamburger and close icons
-import logo from "../assets/logog astro.png";
+import logo from "../assets/logostro.jpg";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
