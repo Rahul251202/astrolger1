@@ -77,7 +77,7 @@ const KundliForm = () => {
               className="w-full px-4 py-2 border rounded-md"
             />
             <input
-              type="date"
+              type="text"
               name="dateOfBirth"
               placeholder="Date of Birth"
               value={formData.dateOfBirth}
@@ -86,7 +86,7 @@ const KundliForm = () => {
               className="w-full px-4 py-2 border rounded-md"
             />
             <input
-              type="time"
+              type="text"
               name="timeOfBirth"
               placeholder="Time of Birth"
               value={formData.timeOfBirth}
@@ -125,7 +125,7 @@ const KundliForm = () => {
 
               <div className="mt-4 text-center">
                 <a
-                  href={`https://wa.me/919876543210?text=${encodeURIComponent(
+                  href={`https://wa.me/917503183147?text=${encodeURIComponent(
                     `Hi, I would like to get my full Kundli chart based on my details:\nName: ${kundliData.name}\nDOB: ${kundliData.dob}\nTime of Birth: ${kundliData.tob}\nPlace of Birth: ${kundliData.pob}`
                   )}`}
                   target="_blank"

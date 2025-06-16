@@ -15,6 +15,7 @@ import Contact from "./Components/Contact";
 // Pages
 import GemstonePage from "./Pages/GemstonePage";
 import PoojaPage from "./Pages/PoojaPage";
+import ScrollToTop from "./Components/Scrolltop";
 
 function HomePage() {
   return (
@@ -80,6 +81,7 @@ function HomePage() {
 export default function App() {
   return (
     <Router>
+      <ScrollToTop/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services/gemstones" element={<GemstonePage />} />
