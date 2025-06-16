@@ -6,8 +6,8 @@ import { motion } from "framer-motion";
 
 import horoscopeImage from "../assets/horo.jpg";
 import poojaImage from "../assets/pooja photo.jpg";
-import gemstoneImage from "../assets/gemstone.jpg";
-import vedicImage from "../assets/palmistry.jpg";
+import gemstoneImage from "../assets/gemstonee.jpg";
+import vedicImage from "../assets/palmin.jpg";
 
 const services = [
   {

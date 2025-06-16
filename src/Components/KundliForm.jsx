@@ -79,6 +79,7 @@ const KundliForm = () => {
             <input
               type="date"
               name="dateOfBirth"
+              placeholder="Date of Birth"
               value={formData.dateOfBirth}
               onChange={handleChange}
               required
@@ -87,6 +88,7 @@ const KundliForm = () => {
             <input
               type="time"
               name="timeOfBirth"
+              placeholder="Time of Birth"
               value={formData.timeOfBirth}
               onChange={handleChange}
               required

@@ -65,7 +65,7 @@ const Footer = () => {
             <li>
               Location:{" "}
               <a
-                href="https://goo.gl/maps/your-location-link"
+                href="https://www.google.com/maps/dir//3879,+11,+Kanhiya+Nagar,+Tri+Nagar,+New+Delhi,+Delhi,+110035/@28.6792609,77.0825389,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390d036eee29eb5f:0x30e255798e8b983c!2m2!1d77.1649403!2d28.6792858?entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-purple-400 hover:underline"

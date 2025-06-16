@@ -43,7 +43,7 @@ const ContactForm = () => {
 
     const text = `Hi, my name is ${name}. My email is ${email}. Here's my message:\n\n${message}`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/935477119?text=${encodedText}`, "_blank"); // Replace number
+    window.open(`https://wa.me/917503183147?text=${encodedText}`, "_blank"); // Replace number
   };
 
   return (
