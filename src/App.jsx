@@ -35,7 +35,7 @@ function HomePage() {
         <KundliForm />
       </section>
 
-      <section id="about">
+      <section id="About">
         <AboutSection />
       </section>
 
