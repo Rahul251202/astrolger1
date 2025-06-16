@@ -92,7 +92,7 @@ const Footer = () => {
       <FaFacebookF className="w-5 h-5" />
     </motion.a>
     <motion.a
-      href="https://www.instagram.com/shri_gemstone?igsh=MW5uYjd4N3l1eG05MQ=="
+      href="https://www.instagram.com/astro_vikram5?igsh=MW5uYjd4N3l1eG05MQ=="
       target="_blank"
       rel="noopener noreferrer"
       whileHover={{ scale: 1.2, boxShadow: "0 0 10px #00f6ff" }}
