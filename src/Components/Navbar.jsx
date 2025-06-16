@@ -47,7 +47,15 @@ const Navbar = () => {
           <a href="#home" className="text-black hover:text-yellow-600 transition font-normal">Home</a>
           <a href="#services" className="text-black hover:text-yellow-600 transition font-normal">Services</a>
           <a href="#About" className="text-black hover:text-yellow-600 transition font-normal">About</a>
-          <a href="#contact" className="text-black hover:text-yellow-600 transition font-normal">Contact</a>
+          <a 
+  href="https://wa.me/917503183147?text=Hi%2C%20I%20am%20interested%20in%20your%20services" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-black hover:text-yellow-600 transition font-normal"
+>
+  Contact
+</a>
+
         </div>
 
         {/* Hamburger Icon (Mobile) */}
