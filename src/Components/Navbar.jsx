@@ -82,7 +82,15 @@ const Navbar = () => {
           <a href="#home" onClick={closeMenu} className="hover:text-yellow-600">Home</a>
           <a href="#services" onClick={closeMenu} className="hover:text-yellow-600">Services</a>
           <a href="#About" onClick={closeMenu} className="hover:text-yellow-600">About</a>
-          <a href="#contact" onClick={handleContactForm} className="hover:text-yellow-600">Contact</a>
+              <a 
+  href="https://wa.me/917503183147?text=Hi%2C%20I%20am%20interested%20in%20your%20services" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="text-black hover:text-yellow-600 transition font-normal"
+>
+  Contact
+</a>
+       
         </nav>
       </div>
 
