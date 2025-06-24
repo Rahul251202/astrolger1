@@ -13,7 +13,7 @@ const gemstones = [
     image: Ruby,
     origin: "Burma",
     rate: "₹19,545",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं रूबी 4.67 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
    {
     name: "Ruby 6.52 Carats",
@@ -21,7 +21,7 @@ const gemstones = [
     
     origin: "Burma",
     rate: "₹38560",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं रूबी 6.52 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
    {
     name: "Emerald 7.25 Carats",
@@ -29,7 +29,7 @@ const gemstones = [
    
     origin: "Zambia",
     rate: "₹46580",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं पन्ना 7.25 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
    {
     name: "Emerald 8.50 Carats",
@@ -37,7 +37,7 @@ const gemstones = [
 
     origin: "Zambia",
     rate: "₹37800",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं पन्ना 8.50 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
    {
     name: "Blue Sapphire 5.25 Carats",
@@ -45,7 +45,7 @@ const gemstones = [
 
     origin: "Sri Lanka",
     rate: "₹30250",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं नीला नीलम 5.25 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
 
     {
@@ -54,7 +54,7 @@ const gemstones = [
   
     origin: "Bangkok",
     rate: "₹16180",
-    whatsappMessage: "नमस्ते, मैं पुखराज रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
+    whatsappMessage: "नमस्ते, मैं नीलम 8.50 कैरेट रत्न खरीदना चाहता हूँ। कृपया जानकारी दें।",
   },
   // Add more gemstones as needed
 ];

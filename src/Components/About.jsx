@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import vivah from "../assets/vivahh.jpg";
+import vivah from "../assets/grih.jpeg";
 import baglamukhiImg from "../assets/baglamukhii.jpg";
 import rudra from "../assets/rudrakash.jpg";
 import phto from "../assets/bg-vikr.jpg";

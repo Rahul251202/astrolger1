@@ -41,7 +41,7 @@ const PoojaPage = () => {
 
     {/* WhatsApp Contact Button */}
     <a
-      href="https://wa.me/919354771199?text=Hi,%20I'm%20interested%20in%20booking%20a%20personalized%20pooja%20ritual."
+      href="https://wa.me/917503183147?text=Hi,%20I'm%20interested%20in%20booking%20a%20personalized%20pooja%20ritual."
       target="_blank"
       rel="noopener noreferrer"
       className="inline-block mt-6 bg-green-500 hover:bg-green-600 text-white font-semibold py-2 px-4 rounded-full shadow-md transition"
