@@ -92,7 +92,7 @@ export default function ServicesSection() {
 
     const text = `Hi, my name is ${name}. My email is ${email}. Here's my message:\n\n${message}`;
     const encodedText = encodeURIComponent(text);
-    window.open(`https://wa.me/935477119?text=${encodedText}`, "_blank"); // Replace number if needed
+    window.open(`https://wa.me/7503183147?text=${encodedText}`, "_blank"); // Replace number if needed
   };
 
   return (
